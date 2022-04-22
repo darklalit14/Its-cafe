@@ -13,7 +13,7 @@ function Navbar() {
                 <li className="menu__item"> <Link to={"/"}>Home</Link> </li>
                 <li className="menu__item"> <Link to={"/menu"}>Menu</Link> </li>
                 <li className="menu__item"> <Link to={"/status"}>Order Status</Link> </li>
-                <li className="menu__item"> <Link to={"/#contact"}>Contact Us</Link> </li>
+                <li className="menu__item"> <Link to={"/contact"}>Contact Us</Link> </li>
             </ul>
         </div>
     </div>

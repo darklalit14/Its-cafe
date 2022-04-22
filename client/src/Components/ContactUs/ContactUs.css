@@ -1,0 +1,47 @@
+.contact {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contactTitle {
+    text-align: center;
+}
+
+.contactDetails {
+    display: flex;
+    background-color: #0c84a835;
+    margin-top: 2rem;
+}
+
+.contactLeft {
+    flex: 50%;
+    height: 30rem;
+    padding: 5rem 3rem;
+    text-align: right;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.contactRight {
+    flex: 50%;
+    background-color: #f4f4f45e;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 3rem;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 0.8rem 0.5rem;
+    margin: 0.8rem 0;
+    font-size: 1rem;
+}
+
+.button {
+    border: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #FFF;
+}
