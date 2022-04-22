@@ -6,7 +6,10 @@ const express = require("express");
 dotenv.config({ path: "./config.env" });
 const PORT = process.env.PORT;
 app.use(cors());
-app.use(express.json())
+app.use(express.json());
+
+// DB connection
+require("./db/connection")
 
 app.get("/", (req, res) => {
     return res.send("This is working fine")
